@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090514" />
+      <stop offset="50%" stop-color="#190e38" />
+      <stop offset="100%" stop-color="#040108" />
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e0e7ff" stop-opacity="0.9" />
+      <stop offset="60%" stop-color="#a855f7" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#090514" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg2)" />
+  <circle cx="400" cy="200" r="160" fill="url(#moonGlow)" />
+  <circle cx="400" cy="200" r="50" fill="#fdf4ff" opacity="0.95" />
+  <!-- Stars -->
+  <g fill="#fff">
+    <circle cx="120" cy="80" r="2.5" opacity="0.9" />
+    <circle cx="250" cy="130" r="1.5" opacity="0.7" />
+    <circle cx="340" cy="60" r="2" opacity="0.8" />
+    <circle cx="560" cy="90" r="1.5" opacity="0.8" />
+    <circle cx="680" cy="150" r="2" opacity="0.9" />
+    <circle cx="720" cy="70" r="1.5" opacity="0.6" />
+    <circle cx="180" cy="240" r="1.5" opacity="0.7" />
+    <circle cx="620" cy="280" r="2" opacity="0.8" />
+  </g>
+  <path d="M0,450 Q200,430 400,440 T800,430 L800,600 L0,600 Z" fill="#0c071a" />
+  <text x="400" y="520" text-anchor="middle" fill="#e9d5ff" font-family="'Playfair Display', serif" font-size="28" font-style="italic" letter-spacing="2">Midnight Rooftop Stargazing</text>
+  <text x="400" y="550" text-anchor="middle" fill="#c084fc" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" opacity="0.8" letter-spacing="3">UNDER THE CELESTIAL CANOPY</text>
+</svg>

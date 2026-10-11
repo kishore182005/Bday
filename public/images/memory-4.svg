@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07111e" />
+      <stop offset="50%" stop-color="#141e3c" />
+      <stop offset="100%" stop-color="#050a12" />
+    </linearGradient>
+    <radialGradient id="nebulaRoad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#07111e" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg4)" />
+  <circle cx="400" cy="240" r="200" fill="url(#nebulaRoad)" />
+  <!-- Road lines into the horizon -->
+  <polygon points="400,280 430,480 370,480" fill="#1e293b" opacity="0.6" />
+  <line x1="400" y1="300" x2="400" y2="480" stroke="#f43f5e" stroke-width="4" stroke-dasharray="16,16" />
+  <!-- Stars -->
+  <circle cx="200" cy="100" r="2" fill="#bae6fd" />
+  <circle cx="600" cy="80" r="2" fill="#e0e7ff" />
+  <circle cx="680" cy="180" r="1.5" fill="#fbcfe8" />
+  <path d="M0,480 L800,480 L800,600 L0,600 Z" fill="#040910" />
+  <text x="400" y="525" text-anchor="middle" fill="#bae6fd" font-family="'Playfair Display', serif" font-size="28" font-style="italic" letter-spacing="2">The Spontaneous Road Trip</text>
+  <text x="400" y="555" text-anchor="middle" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" opacity="0.8" letter-spacing="3">ENDLESS HIGHWAYS &amp; MUSIC</text>
+</svg>
